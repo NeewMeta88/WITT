@@ -1,4 +1,4 @@
-langchain-openai~=0.3.18
-langchain~=0.3.25
-langgraph~=0.4.7
-python-dotenv~=1.1.0
+langchain-openai
+langchain
+langgraph-cli[inmem]
+python-dotenv
