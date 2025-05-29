@@ -23,7 +23,7 @@ This is a minimal project using **LangGraph** to implement a **stateless chatbot
 ## 🛠 How to Run
 
 ```bash
-git clone <your_repo>
+git clone https://github.com/NeewMeta88/WITT
 cd witt
 
 python -m venv .venv
