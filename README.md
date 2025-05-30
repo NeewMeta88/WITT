@@ -39,12 +39,20 @@ langgraph dev
 
 ## ☁️ Using OpenAI
 
-1. `.env` file is in repo too, just to speed up the process of testing
-   ```env
-   OPENAI_API_KEY=already_entered
-   ```
+1. **Create your own OpenAI API key:**
 
-2. The code automatically loads it using `python-dotenv`.
+   - Visit [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
+   - Sign in or create an account
+   - Click **“Create new secret key”**
+   - Copy and save the key somewhere safe
+
+2. **Update the existing `.env` file in the project root directory:**
+
+   Replace the placeholder with your actual API key:
+
+   ```env
+   OPENAI_API_KEY=sk-...your_actual_key_here...
+
 
 ---
 
